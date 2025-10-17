@@ -64,3 +64,5 @@ print(fruet1)
 
 
 print(type(fruet1))
+
+print("Hello World")
