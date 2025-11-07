@@ -1084,7 +1084,7 @@ import array
 # # # arry program
 
 # arr=array.array("i",[2,4,6,8,10])
-# # print(arr)
+# print(arr)
 
 # arr.append(12)
 # print("after appent:",arr)
@@ -1152,9 +1152,9 @@ import array
 
 # #sort
 
-pairs=[(1,5),(3,1),(2,4)]
-pairs.sort(key=lambda x:x[1])
-print(pairs)
+# pairs=[(1,5),(3,1),(2,4)]
+# pairs.sort(key=lambda x:x[1])
+# print(pairs)
 
 
 # studence=[("Alice",85),("Bob",72),("Charlie",90)]  #thihs is map

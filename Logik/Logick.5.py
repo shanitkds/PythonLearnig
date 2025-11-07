@@ -23,16 +23,16 @@
 # Add([1, 2, 3, 4, 5, 6], 7)
 
 
-def isHappy(n):
-        seen=[]
-        while n !=1:
-            if n in seen:
-                return False
-            seen.append(n)
-            val=0
-            for digits in str(n):
-                val+=int(digits)**2
-            n=val
-            print(val)
-        return True
-print(isHappy(7))
+# def isHappy(n):
+#         seen=[]
+#         while n !=1:
+#             if n in seen:
+#                 return False
+#             seen.append(n)
+#             val=0
+#             for digits in str(n):
+#                 val+=int(digits)**2
+#             n=val
+#             print(val)
+#         return True
+# print(isHappy(7))
